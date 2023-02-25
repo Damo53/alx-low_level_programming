@@ -9,11 +9,16 @@ void print_most_numbers(void)
 	int c;
 
 	c = 0;
-	while (c <= 9)
+	for (; c <= 9; c++)
 	{
-	c++;	
-	if (c != 2 && c != 4)
+	if (c == 2 || c == 4)
+	{
+	continue;
+	}
+	else
+	{
 	_putchar(c + '0');
+	}
 	}
 	_putchar('\n');
 }
