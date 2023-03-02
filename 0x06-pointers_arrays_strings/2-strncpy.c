@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * strncpy - copy a string
+ * _strncpy - copy a string
  * @dest: first string
  * @src: second string
  * @n: number of bytes
  * Return: 0
  */
-char *strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int strlen = 0;
 
