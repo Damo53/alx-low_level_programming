@@ -6,18 +6,16 @@
  */
 char *string_toupper(char *n)
 {
-	char str;
 	int i;
 
 	i = 0;
-	while (str[i] != '\o')
+	while (n[i] != '\o')
 	{
-		if (str[i] >= 'a' && str[i] <= 'z')
+		if (n[i] >= 'a' && n[i] <= 'z')
 		{
-			str[i] = str[i] - 32;
+			n[i] = n[i] - 32;
 			i++;
 		}
 	}
-	_putchar(str[i]);
-	return (0);
+	return (n);
 }
