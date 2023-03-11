@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gcc -wall -pedantic -werror -wextra -c *.c
+gcc -Wall -pedantic -Werror -Wex:xtra -c *.c
 
 ar -rc liball.a *.o
 
